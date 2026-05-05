@@ -21,7 +21,7 @@ The project's most novel contribution is a **custom-built feelings dataset** —
 ```
 ├── Yigit_Akdemir_ADA_Final_Project_Data_Gathering.ipynb   # Data pipeline (1,412 lines)
 ├── Yigit_Akdemir_ADA_Final_Project_Analysis.ipynb         # Modeling and analysis (1,426 lines)
-├── max_ds.xlsx                                             # Main dataset (1,500 movies, 2,157 predictors)
+├── full_dataset.xlsx                                      # Main dataset (1,500 movies, 2,157 predictors)
 └── README.md
 ```
 
