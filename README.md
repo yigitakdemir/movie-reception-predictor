@@ -1,4 +1,4 @@
-# What Makes a "Good" Movie?
+# Movie Reception Predictor: What Makes a "Good" Movie?
 ### A Genre, Theme and Feeling-Based Machine Learning Approach
 
 **Course:** MPCS 53120 Applied Data Analysis — University of Chicago  
