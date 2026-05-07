@@ -1,4 +1,4 @@
-# Movie Reception Predictor: What Makes a "Good" Movie?
+# What Makes a "Good" Movie?
 ### A Genre, Theme and Feeling-Based Machine Learning Approach
 
 **Course:** MPCS 53120 Applied Data Analysis — University of Chicago  
@@ -12,16 +12,16 @@ This project investigates what content elements — genres, themes, and feelings
 
 The dataset covers **1,500 critically and culturally significant films** spanning 1920–2024, with ratings drawn from IMDb (general audience), Rotten Tomatoes Tomatometer, and Metacritic. The response variable is the average of these three rating sources, normalized to a 0–100 scale.
 
-The project's most novel contribution is a **custom-built feelings dataset** — three independent feeling measurements per film, generated through review-based NLP, transformer models, and GPT-4o — described in detail below.
+The project's most novel contribution is a **custom-built feelings dataset** — three independent feeling measurements per film, generated through review-based NLP, transformer models, and GPT-4o — described in detail below. The feelings dataset is published as open-source on Kaggle: [Movie Feelings: Emotion Features for 1,500 Films](https://www.kaggle.com/datasets/yakdemir/movie-feelings-emotion-features-for-1500-films)
 
 ---
 
 ## Repository Structure
 
 ```
-├── Data_Gathering.ipynb                  # Data pipeline (1,412 lines)
-├── Project_Analysis.ipynb                # Modeling and analysis (1,426 lines)
-├── full_dataset.xlsx                     # Main dataset (1,500 movies, 2,157 predictors)
+├── Yigit_Akdemir_ADA_Final_Project_Data_Gathering.ipynb   # Data pipeline (1,412 lines)
+├── Yigit_Akdemir_ADA_Final_Project_Analysis.ipynb         # Modeling and analysis (1,426 lines)
+├── max_ds.xlsx                                             # Main dataset (1,500 movies, 2,157 predictors)
 └── README.md
 ```
 
@@ -155,6 +155,16 @@ Both continuous (average rating) and binary (above/below median = 78.5) response
 `statsmodels` (linear/logistic regression), `sklearn` (forward/backward selection, ridge, lasso, PCA, PLS, neural nets, decision trees, SVC/SVM, train-test split, CV, confusion matrix), `matplotlib`, `seaborn`
 
 **Environment:** Google Colab
+
+---
+
+## Kaggle Dataset
+
+The novel movie feelings dataset generated in this project is publicly available on Kaggle:
+
+**[Movie Feelings: Emotion Features for 1,500 Films](https://www.kaggle.com/datasets/yakdemir/movie-feelings-emotion-features-for-1500-films)**
+
+The published dataset includes identity columns, ratings, plot synopses, and all 150 feeling features (F1/F2/F3) across 1,500 films.
 
 ---
 
